@@ -1,0 +1,12 @@
+{application, basicpxs,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { basicpxs_app, []}},
+  {env, []}
+ ]}.
